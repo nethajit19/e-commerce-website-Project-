@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductDetails - Redstore</title>
+    <link rel="stylesheet" href="../css/redstore.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+    
+        
+        
+        <div class="container">
+
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../imagess/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+        
+                        <li><a href="">Home</a> </li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="" >Contact</a></li>
+                        <li><a href="">Account</a></li> 
+                    </ul>
+                </nav>
+                
+
+                <img src="../imagess/cart.png" width="30px"; height="30px">
+                <img src="../imagess/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+
+
+        <!------cart items------->
+
+        <div class="smallcontainer cartpage">
+
+            <table class="cart">
+
+                <tr>
+
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+
+                </tr>
+
+
+                <tr>
+
+                    <td>
+
+
+                        <div class="cartinfo">
+
+                            <img src="../imagess/buy-1.jpg">
+                            <div>
+                                <p>Red Printed T-Shirt </p>
+                                <small>Price: $100.00</small>
+                                <br>
+                                <a href="" class="btn">Remove</a>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td class="Price">$100.00</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+
+                        <div class="cartinfo">
+
+                            <img src="../imagess/buy-2.jpg">
+                            <div>
+                                <p>Sparx Men's Black Sneaker </p>
+                                <small>Price: $100.00</small>
+                                <br>
+                                <a href="" class="btn">Remove</a>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td class="Price">$100.00</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+
+
+                        <div class="cartinfo">
+
+                            <img src="../imagess/buy-3.jpg">
+                            <div>
+                                <p>Greyish Black Track </p>
+                                <small>Price: $100.00</small>
+                                <br>
+                                <a href="" class="btn">Remove</a>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td class="Price">$100.00</td>
+
+                </tr>
+
+
+
+
+            </table>
+
+
+            <div class="total-price">
+
+                <table>
+
+                    <tr>
+
+                        <td>Subtotal</td>
+                        <td>$300.00</td>
+                    </tr>
+
+                    <tr>
+
+                        <td>Tax</td>
+                        <td>$35.00</td>
+                    </tr>
+
+                    <tr>
+
+                        <td>Total</td>
+                        <td>$335.00</td>
+                    </tr>
+
+
+
+                </table>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <P>Download App for Android and ios mobile phone.</P>
+                        <div class="app-logo">
+                            <img src="../imagess/play-store.png">
+                            <img src="../imagess/app-store.png" >
+                        </div>
+                    </div>
+
+                    <div class="footer-col-2">
+                        <img src="../imagess/logo-white.png">
+                        
+                        <P>Our Purpose Is to Substainely Make the Pleasure and Benefits of Sports Accessible to the Many.</P>
+
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+
+                        <ul>
+
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+
+
+                        </ul>
+                       
+                    </div>
+
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+
+                        <ul>
+
+                            <li>Facebook</li>
+                            <li>Instragram</li>
+                            <li>YouTube</li>
+                            <li>Twitter</li>
+
+
+                        </ul>
+                       
+                    </div>
+
+
+
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+            </div>
+        </div>
+
+
+
+
+       
+
+
+
+        <script>
+
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+    
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+
+
+
+</body>
+</html>
